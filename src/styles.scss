@@ -1,0 +1,64 @@
+// FONT
+
+@font-face {
+    font-family: Proba;
+    src: local("Proba")
+         url(../fonts/Proba.otf);
+  }
+
+
+body{
+	background-color: white;
+	height: 100%;
+	width: 1100px;
+	top: 0;
+	color: black;
+	font-family: 'Proba';
+}
+.header{
+	display: inline-block;
+	background-color: #efefef;
+	width: 100%;
+	& h1{
+		font-size: 24px;
+		font-weight: 600;
+		float: left;
+	}
+}
+input{
+	height: 42px;
+}
+.number{
+	font-size: 18px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #009730;
+	color: white;
+	float: left;
+	margin: 20px;
+	& span{
+		padding: 7px 13px 9px 12px;
+	}
+}
+.content{
+	background-color: #efefef;
+}
+.info{
+	display: flex;
+	flex-direction: row;
+}
+textarea{
+	width: 1060px;
+	height: 285px;
+	border: 1px solid #bfbfbf;
+	background-color: #ffffff;
+}
+button{
+width: 107px;
+height: 52px;
+border-radius: 7px;
+background-color: #5b9546; 
+color: white;
+font-family: Proba;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Polygon</title>
+</head>
+<body>
+	<div class="header">
+		<div class="number"><span>1</span></div>
+		<h1>In Store Pickup</h1>
+	</div>
+	<div class="content">
+		<p class="small-text">In store pick up items will be processed as orders come in lorem ipsum. The pickup date and time must be two days from today after 2pm.</p>
+		<div class="store">
+			<input type="radio" id="store" name="store">
+				<label for="store">2099 Peachtree Rd NE. Atlanta GA 30309</label>
+			</input>
+			<input type="radio" id="another_store" name="store">
+				<label for="another_store">Choose a Different Store</label>
+			</input>
+		</div>
+
+		<div class="date">
+			<label for="date">pickup Date</label>
+			<input type="date" id="date" name="date" placeholder="11/14/2016"></input>
+		
+			<label for="time">pickup Time</label>
+			<input type="time" id="time"></input>
+		</div>
+
+		<div class="info">
+			<label for="first-name">Your name</label>
+			<input type="text" id="first-name" placeholder="First Name">
+			<input type="text" id="second-name" placeholder="Last Name">
+			<label for="email">Email Address</label>
+			<input type="email" id="email" placeholder="Ex.joe@joe.com">
+			<label for="phone">Phone Number</label>
+			<input type="tel" id="phone" placeholder="Ex. 555-555-5555">
+		</div>
+		<div class="comments">
+			<p>special requests and additional comments</p>
+			<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+		</div>
+		<button type="submit">Continue</button>
+	</div>
+</body>
+</html>
