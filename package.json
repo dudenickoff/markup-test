@@ -2,7 +2,7 @@
   "name": "polygon",
   "version": "1.0.0",
   "description": "Default webpack start config",
-  "main": "index.js",
+  "main": "src/app.js",
   "dependencies": {},
   "scripts": {
     "dev_mode": "webpack-dev-server",
